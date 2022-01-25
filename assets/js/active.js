@@ -74,11 +74,11 @@
     // :: 12.0 TEAM SLIDER ACTIVE CODE
     $('.testi-slider.owl-carousel').owlCarousel({
         loop: true,
-        margin: 20,
+        margin: 30,
         nav: false,
         dots: true,
         smartSpeed: 2000,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 4000,
         responsive: {
             0: {
@@ -88,10 +88,10 @@
                 items: 1
             },
             768: {
-                items: 1
+                items: 2
             },
             992: {
-                items: 1
+                items: 3
             }
         }
     });
