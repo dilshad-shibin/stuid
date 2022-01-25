@@ -838,3 +838,254 @@ footer{
     border-top: 1px solid #fffc;
     padding: 30px 0;
 }
+
+/* ******************************
+:: 17.0  POPUP AREA 
+****************************** */
+.modal-dialog{
+    margin-top: 100px;
+    max-width: 694px !important;
+    z-index: 99999;
+}
+
+.order-model .modal-dialog{
+    max-width: 894px !important;
+}
+
+.modal.fade .modal-dialog{
+    top: 48%;
+    transition: -webkit-transform 0.4s ease;
+    transition: transform 0.4s ease;
+    transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+}
+
+.modal-content {
+    border-radius: 0px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.download-close{
+    float: right;
+    background: #2e2a29;
+    border-radius: 45px;
+    border: 1px solid transparent;
+    width: 46px;
+    height: 46px;
+    z-index: 99999;
+    position: absolute;
+    right: -6px;
+    top: -8px;
+    padding: 2px 0;
+    transition: all .3s ease;
+}
+
+.download-close:hover{
+    background: #c5a10f;
+}
+
+.download-close span {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 45px;
+    padding: 5px 16px;
+}
+
+#letter5{
+    text-align: center;
+}
+
+.letter_inner .heading {
+    margin-bottom: 0px;
+}
+
+.heading h2 {
+    font-size: 35px;
+    line-height: 24px;
+    color: #193d6f;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.heading h2:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    background: linear-gradient(to right, #0080dd 0%, transparent 100%);
+    z-index: 99;
+}
+
+#letter6 .tab-content, #letter5 .tab-content {
+    padding: 0 50px;
+}
+
+.order-model form{
+    display: block;
+}
+
+.order-model label {
+    font-size: 14px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: #999;
+    line-height: 24px;
+    position: absolute;
+    left: 34px;
+    top: -12px;
+    background: #fff;
+    padding: 0 8px;
+    z-index: 99;
+}
+
+#letter5 select, #letter5 input {
+    margin-bottom: 15px;
+    position: relative;
+    color: #000;
+    resize: none;
+    font-weight: 300;
+    border: 0.5px solid #ccc;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;    
+    height: 70px;
+    width: 100%;
+    font-size: 18px;
+    padding: 0 20px;
+    border-radius: 3px;
+    z-index: 9;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+#letter5 input[type="submit"]{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #282728;
+}
+
+#letter5 input:focus {
+    outline: none !important;
+    border: 0.5px solid #e69746;
+    color: #193d6f;
+}
+
+.wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+.order-model .datepicker {
+    position: relative;
+}
+
+.popup-btn a{
+    background: #185cc9;
+    color: #fff;
+    padding: 18px 72px;
+    border-radius: 100px;
+    transition: all .3s;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.popup-btn a:hover{
+    background-color: #ffc343;
+    color: #fff;
+}
+
+.popup-btn{
+    margin-top: 40px;
+}
+
+.modal.fade .modal-dialog{
+    display: flex;
+}
+
+.popup-img-main{
+    background-color: #2f9331;
+}
+
+.popup-img img{
+    width: 280px;
+}
+
+.model-project-details .form-group input::-webkit-input-placeholder,
+.model-project-details .form-group textarea::-webkit-input-placeholder {
+    color: #000;
+}
+
+.model-project-details .form-group input:-ms-input-placeholder,
+.model-project-details .form-group textarea:-ms-input-placeholder {
+    color: #000;
+}
+
+.model-project-details .form-group input::placeholder,
+.model-project-details .form-group textarea::placeholder {
+    color: #000;
+}
+
+.model-project-details input:focus,
+.model-project-details textarea:focus,
+.model-project-details select:focus {
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e69746;
+    color: #fff;
+    background: transparent;
+}
+
+.popupleft-content,
+.modal-mookambika{
+    background-color: #e69746;
+}
+
+.popupleft-content{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 50px;
+    background-image: url(../img/banner-lady.jpg);
+    background-size: cover;
+}
+
+/* .popupleft-content h4{
+    color: #fff;
+    font-weight: 400;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.popupleft-content h3 {
+    font-weight: 500;
+    color: #fff;
+    font-size: 23px;
+    margin: 25px 0;
+    text-transform: uppercase;
+}
+
+.popupleft-content h3 span{
+    font-weight: 800;
+    font-size: 30px;
+} */
+
+/* #letter5 select, #letter5 input{
+    color: #fff;
+} */
