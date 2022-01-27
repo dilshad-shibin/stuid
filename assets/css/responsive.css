@@ -464,6 +464,9 @@
     .footer-first .call{
         margin-bottom: 30px;
     }
+    .pp-left{
+        display: none;
+    }
 }
 
 @media(max-width:575px){
@@ -579,5 +582,17 @@
     }
     .contact-box h3{
         font-size: 30px;
+    }
+    .heading h2{
+        font-size: 25px;
+    }
+    #letter5 select, #letter5 input{
+        height: 55px;
+    }
+    #letter6 .tab-content, #letter5 .tab-content{
+        padding: 0 35px;
+    }
+    .modal.fade .modal-dialog{
+        top: 42%;
     }
 }
